@@ -25,7 +25,10 @@
 # Text files
 # ============
 *.ipynb  text
-*.html  text
+
+# Documentation files
+# ============
+docs/* linguist-documentation
 
 # Note: .db, .p, and .pkl files are associated
 # with the python modules ``pickle``, ``dbm.*``,
