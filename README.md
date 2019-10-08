@@ -35,6 +35,9 @@ These models were implemented with code from open source repositories (see Ackno
 
 ## Usage
 
+The Keras models must be trained before they can be used for prediction. Pre-trained weights are not provided. The training dataset
+can be downloaded via the [ISPRS website](http://www2.isprs.org/commissions/comm3/wg4/data-request-form2.html).
+
 ### Training:
 If training with the Potsdam dataset, ensure that the dataset has been placed correctly in the datasets/Potsdam folder.
 Command line usage with arguments is currently disabled. To enable it, follow the instructions in the comments in train.py.
