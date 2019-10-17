@@ -2,10 +2,7 @@
 
 ![Example predictions](https://raw.githubusercontent.com/gabrielchao/terrainclassifier/master/docs/example_all_models.png)
 
-A semantic segmenation classifier for RGB aerial orthophotos.
-
-Given overhead, birds-eye-view images of terrain, terrainclassifier classifies each pixel of the image by type of terrain.
-The output is an image of the same resolution as the original, but with each pixel colour-coded to indicate its terrain class.
+A semantic segmenation classifier for RGB aerial orthophotos. Given overhead, birds-eye-view images of terrain, terrainclassifier classifies each pixel of the image by type of terrain. The output is an image of the same resolution as the original, but with each pixel colour-coded to indicate its terrain class.
 
 terrainclassifier is able to identify the following types of terrain:
 - Impervious surfaces (roads, pavement)
@@ -16,6 +13,8 @@ terrainclassifier is able to identify the following types of terrain:
 - Clutter/background (miscellaneous objects)
 
 terrainclassifier is built to be trained with the [ISPRS Potsdam Dataset](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-potsdam.html).
+
+This package was made as part of a project to explore the field of deep learning. For a more thorough explanation of this package, as well as the basic deep learning principles behind it, please view the [project report in PDF format](docs/Terrain%20Classification%20with%20Deep%20Learning.pdf).
 
 ## What's Inside
 
